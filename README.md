@@ -1,6 +1,6 @@
 # RobinASR - Work in progress...
 
-This repository contains an Automatic Speech Recognition System for the Romanian language that uses the DeepSpeech2 model.
+This repository contains an Automatic Speech Recognition System for the Romanian language that uses the DeepSpeech2 architecture.
 
 ## Acknowledgments
 
