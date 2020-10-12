@@ -5,7 +5,7 @@ This repository contains Robin's Automatic Speech Recognition (RobinASR) for the
 The pretrained text-to-speech model can be downloaded from [here](http://relate.racai.ro/resources/robinasr/deepspeech_final.pth.gz) and the pretrained KenLM can be downloaded from [here](http://relate.racai.ro/resources/robinasr/corola_5gram.arpa.gz).
 
 Also, make sure to visit:
-- A demo of the ASR system is available in the RELATE platform: https://relate.racai.ro/index.php?path=robin/asr
+- A demo of the ASR system available in the RELATE platform: https://relate.racai.ro/index.php?path=robin/asr
 - A post-processing web service allowing hyphenation and basic capitalization restoration: https://github.com/racai-ai/RobinASRHyphenationCorrection
 
 
