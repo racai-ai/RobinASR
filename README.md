@@ -55,7 +55,7 @@ path_to_wav3,path_to_txt3
 ...
 ```
 
-Then you must modify correspondingly the configuration file located at `deepspeech_pytorch/configs/train_config.py` and start training with:
+Then you must modify correspondingly with your configuration the file located at `deepspeech_pytorch/configs/train_config.py` and start training with:
 ```
 python train.py
 ```
