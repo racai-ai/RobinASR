@@ -46,7 +46,7 @@ python3 server.py
 
 ## Train a New Model
 
-You must create 3 csv manifest files (train, valid and test) that contain on each line the the math to a wav file and its corresponding transcription, separated by commas:
+You must create 3 csv manifest files (train, valid and test) that contain on each line the the path to a wav file and the path to its corresponding transcription, separated by commas:
 
 ```
 path_to_wav1,path_to_txt1
