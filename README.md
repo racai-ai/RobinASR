@@ -2,7 +2,7 @@
 
 This repository contains Robin's Automatic Speech Recognition (RobinASR) for the Romanian language based on the [DeepSpeech2](http://proceedings.mlr.press/v48/amodei16.pdf) architecture, together with a [KenLM](https://kheafield.com/papers/avenue/kenlm.pdf) language model to imporve the transcriptions. 
 
-The pretrained text-to-speech model can be downloaded from [here]() and the pretrained KenLM can be downloaded from [here]().
+The pretrained text-to-speech model can be downloaded from [here](http://relate.racai.ro/resources/robinasr/deepspeech_final.pth.gz) and the pretrained KenLM can be downloaded from [here](http://relate.racai.ro/resources/robinasr/corola_5gram.arpa.gz).
 
 Also, make sure to visit:
 - A demo of the ASR system is available in the RELATE platform: https://relate.racai.ro/index.php?path=robin/asr
