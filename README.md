@@ -44,6 +44,22 @@ Firstly, take a look at the configuration file in `deepspeech_pytorch/configs/in
 python3 server.py
 ```
 
+## Train a New Model
+
+You must create 3 csv manifest files (train, valid and test) that contain on each line the the math to a wav file and its corresponding transcription, separated by commas:
+
+```
+path_to_wav1,path_to_txt1
+path_to_wav2,path_to_txt2
+path_to_wav3,path_to_txt3
+...
+```
+
+Then you must modify correspondingly the configuration file located at `deepspeech_pytorch/configs/train_config.py` and start training with:
+```
+python train.py
+```
+
 ## Acknowledgments
 
 We would like to thank [Sean Narnen](https://github.com/SeanNaren) for making his DeepSpeech2 implementation publicly-available. We used a lot of his code in our implementation. 
