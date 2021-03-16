@@ -66,7 +66,7 @@ We would like to thank [Sean Narnen](https://github.com/SeanNaren) for making hi
 
 ## Cite
 
-If you are using this system, please cite the following [paper](https://academiaromana.ro/sectii2002/proceedings/doc2020-4/11-Avram_Tufis.pdf) as a thank you to the authors:
+If you are using this repository, please cite the following [paper](https://academiaromana.ro/sectii2002/proceedings/doc2020-4/11-Avram_Tufis.pdf) as a thank you to the authors:
 
 ```
 Avram, A.M., Vasile, P.Ă.I.Ș. and Tufis, D., 2020, October. Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2. In Proc. Rom. Acad. Ser. A (Vol. 21, pp. 395-402).
