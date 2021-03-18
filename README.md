@@ -78,7 +78,7 @@ or in BibTeX format:
 @inproceedings{avram2020towards,
   title={Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2},
   author={Avram, Andrei-Marius and Păiș, Vasile and Tufiș, Dan},
-  booktitle={Proceedings of the Romanian Academy},
+  booktitle={Proceedings of the Romanian Academy, Series A},
   pages={395--402},
   year={2020}
 }
