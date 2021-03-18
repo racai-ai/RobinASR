@@ -69,7 +69,7 @@ We would like to thank [Sean Narnen](https://github.com/SeanNaren) for making hi
 If you are using this repository, please cite the following [paper](https://academiaromana.ro/sectii2002/proceedings/doc2020-4/11-Avram_Tufis.pdf) as a thank you to the authors:
 
 ```
-Avram, A.M., Vasile, P.Ă.I.Ș. and Tufis, D., 2020, October. Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2. In Proc. Rom. Acad. Ser. A (Vol. 21, pp. 395-402).
+Avram, A.M., Păiș, V. and Tufis, D., 2020, October. Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2. In Proc. Rom. Acad. Ser. A (Vol. 21, pp. 395-402).
 ```
 
 or in BibTeX format:
@@ -77,6 +77,9 @@ or in BibTeX format:
 ```
 @inproceedings{avram2020towards,
   title={Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2},
-  author={Avram, Andrei-Marius and Vasile, P{\u{A}}IȘ}
+  author={Avram, Andrei-Marius and Păiș, Vasile and Tufiș, Dan},
+  booktitle={Proceedings of the Romanian Academy},
+  pages={395--402},
+  year={2020}
 }
 ```
