@@ -14,3 +14,7 @@ RUN cd ctcdecode; pip install .
 # install deepspeech.pytorch
 ADD . /workspace/deepspeech.pytorch
 RUN cd deepspeech.pytorch; pip install -r requirements.txt && pip install -e .
+WORKDIR /workspace/deepspeech.pytorch
+
+CMD python3 server.py
+
