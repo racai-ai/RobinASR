@@ -11,6 +11,24 @@ Also, make sure to visit:
 
 ## Installation
 
+### Docker
+
+1) Download the pretrained text-to-speech model and the pretrained KenLM at the above links, and copy them in a `models` directory inside this repository.
+
+2) Build the docker image using the `Dockerfile`.
+
+```
+docker build --tag RobinASR .
+```
+
+3) Run the docker image.
+
+```
+docker run --gpus all -p 8888:8888 --net=host --ipc=host RobinASR
+```
+
+### From Source
+
 1) You must have Python 3.6+ and PyTorch 1.5.1+ installed in your system. Also. Cuda 10.1+ is required if you want to use the (recommended) GPU version.
 
 2) Clone the repository and install its dependencies:
