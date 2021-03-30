@@ -15,7 +15,7 @@ Also, make sure to visit:
 
 1) Download the pretrained text-to-speech model and the pretrained KenLM at the above links, and copy them in a `models` directory inside this repository.
 
-2) Build the docker image using the `Dockerfile`.
+2) Build the docker image using the `Dockerfile`. Make sure that `deepspeech_pytorch/configs/inference_config.py` has the desired configuration.
 
 ```
 docker build --tag RobinASR .
