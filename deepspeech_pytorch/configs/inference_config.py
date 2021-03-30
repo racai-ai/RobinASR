@@ -6,7 +6,7 @@ from deepspeech_pytorch.enums import DecoderType
 @dataclass
 class LMConfig:
     decoder_type: DecoderType = DecoderType.beam
-    lm_path: str = '/home/andrei.avram/deepspeech2/models/romanian_5gram.arpa'  # Path to an (optional) kenlm language model for use with beam search (req\'d with trie)
+    lm_path: str = '/workspace/deepspeech.pytorch/models/corola_5gram.arpa'  # Path to an (optional) kenlm language model for use with beam search (req\'d with trie)
     top_paths: int = 1  # Number of beams to return
     alpha: float = 0.6  # Language model weight
     beta: float = 0.7  # Language model word bonus (all words)
@@ -31,7 +31,7 @@ class InferenceConfig:
 
 @dataclass
 class TranscribeConfig(InferenceConfig):
-    audio_path: str = 'C://Users//avram//Projects/racai_deepspeech2/test_wavs/test_1.wav'  # Audio file to predict on
+    audio_path: str = ''  # Audio file to predict on
     offsets: bool = False  # Returns time offset information
 
 
