@@ -14,12 +14,12 @@ Also, make sure to visit:
 ### Docker
 
 We offer two docker containers that are available on dockerhub and that provide the RobinASR out of the box:
-- for GPU: 
+- for running on GPU: 
 ```
 docker pull racai/robinasr:gpu
 docker run --gpus all -p 8888:8888 --net=host --ipc=host racai/robinasr:gpu
 ```
-- for CPU: `docker pull racai/robinasr:cpu`
+- for running on CPU:
 ```
 docker pull racai/robinasr:cpu
 docker run -p 8888:8888 --net=host --ipc=host racai/robinasr:cpu
